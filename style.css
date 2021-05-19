@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f1f1f;
+}
+
+a,
+h1 {
+  margin-top: 2rem;
+  color: white;
+  font-size: 3rem;
+}
+
+button {
+  background-color: hotpink;
+  border: none;
+  font-size: 2rem;
+  color: white;
+  border-radius: 10px;
+  padding: 0.5rem 2rem;
+  cursor: pointer;
+  transition: background-color 100ms ease-in-out;
+}
+
+button:hover {
+  background-color: rgb(247, 27, 137);
+}
